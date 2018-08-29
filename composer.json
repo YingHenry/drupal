@@ -22,6 +22,7 @@
         "drupal/admin_toolbar": "^1.24",
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.5.3",
+        "drupal/devel": "^1.2",
         "drupal/elasticsearch_connector": "^5.0@alpha",
         "drupal/search_api": "^1.9",
         "drupal/search_api_autocomplete": "^1.0",
