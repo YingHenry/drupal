@@ -5,10 +5,15 @@ module:
   automated_cron: 0
   ban: 0
   basic_auth: 0
+  better_exposed_filters: 0
   big_pipe: 0
   block: 0
   block_content: 0
   breakpoint: 0
+  captcha: 0
+  chosen: 0
+  chosen_field: 0
+  chosen_lib: 0
   ckeditor: 0
   color: 0
   comment: 0
@@ -17,13 +22,20 @@ module:
   contact: 0
   content_moderation: 0
   contextual: 0
+  crop: 0
+  ctools: 0
   datetime: 0
   datetime_range: 0
   dblog: 0
   devel: 0
   dynamic_page_cache: 0
   editor: 0
+  entity_browser: 0
+  entity_reference_revisions: 0
+  facets: 0
+  facets_range_widget: 0
   field: 0
+  field_group: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -31,10 +43,14 @@ module:
   help: 0
   history: 0
   image: 0
+  image_widget_crop: 0
   kint: 0
   language: 0
   link: 0
+  link_attributes: 0
+  linkit: 0
   locale: 0
+  maxlength: 0
   media: 0
   menu_ui: 0
   node: 0
@@ -43,30 +59,43 @@ module:
   path: 0
   quickedit: 0
   rdf: 0
+  recaptcha: 0
   responsive_image: 0
   rest: 0
-  search: 0
   search_api: 0
   search_api_autocomplete: 0
   search_api_db: 0
   search_api_db_defaults: 0
   serialization: 0
   shortcut: 0
+  social_media: 0
+  social_media_links: 0
+  social_media_links_field: 0
   system: 0
   taxonomy: 0
   telephone: 0
   text: 0
+  token: 0
   toolbar: 0
   toolbar_extras: 0
   tour: 0
   tracker: 0
   update: 0
   user: 0
+  video_embed_field: 0
+  video_embed_media: 0
+  video_embed_wysiwyg: 0
+  views_field_view: 0
+  views_infinite_scroll: 0
   views_ui: 0
+  webform: 0
+  webform_ui: 0
   workflows: 0
   menu_link_content: 1
+  pathauto: 1
   content_translation: 10
   views: 10
+  paragraphs: 11
   standard: 1000
 theme:
   stable: 0

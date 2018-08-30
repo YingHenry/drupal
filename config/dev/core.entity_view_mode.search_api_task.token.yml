@@ -1,0 +1,10 @@
+uuid: 081064e0-756e-4646-9d40-8b66c56a6334
+langcode: fr
+status: true
+dependencies:
+  module:
+    - search_api
+id: search_api_task.token
+label: 'Jeton (token)'
+targetEntityType: search_api_task
+cache: true
