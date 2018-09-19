@@ -20,13 +20,16 @@
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/admin_toolbar": "^1.24",
+        "drupal/anchor_link": "^1.6",
         "drupal/better_exposed_filters": "^3.0@alpha",
         "drupal/chosen": "^2.6",
         "drupal/console": "^1.0.2",
-        "drupal/core": "~8.5.3",
+        "drupal/core": "~8.6.0",
         "drupal/devel": "^1.2",
+        "drupal/editor_file": "^1.2",
         "drupal/elasticsearch_connector": "^5.0@alpha",
         "drupal/entity_browser": "^1.5",
+        "drupal/extlink": "^1.1",
         "drupal/facets": "^1.1",
         "drupal/field_group": "^1.0",
         "drupal/image_widget_crop": "^2.2",
@@ -52,7 +55,7 @@
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
-        "webflo/drupal-core-require-dev": "~8.5.3"
+        "webflo/drupal-core-require-dev": "~8.6.0"
     },
     "conflict": {
         "drupal/drupal": "*"
