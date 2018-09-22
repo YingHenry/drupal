@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2cfe2ac84c785c365a7117dd25ee4766",
+    "content-hash": "dbdc4ae3362c34de652767344a93e420",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -691,16 +691,16 @@
         },
         {
             "name": "consolidation/site-alias",
-            "version": "1.1.2",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/site-alias.git",
-                "reference": "d6fa92e4aaf5ba95cde4454be7ea3165e7e2f17a"
+                "reference": "247f3e52604b9d76a075e6c06d5d1dd73bbae892"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/site-alias/zipball/d6fa92e4aaf5ba95cde4454be7ea3165e7e2f17a",
-                "reference": "d6fa92e4aaf5ba95cde4454be7ea3165e7e2f17a",
+                "url": "https://api.github.com/repos/consolidation/site-alias/zipball/247f3e52604b9d76a075e6c06d5d1dd73bbae892",
+                "reference": "247f3e52604b9d76a075e6c06d5d1dd73bbae892",
                 "shasum": ""
             },
             "require": {
@@ -743,7 +743,7 @@
                 }
             ],
             "description": "Template project for PHP libraries.",
-            "time": "2018-08-22T01:07:08+00:00"
+            "time": "2018-09-22T04:11:38+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -2122,6 +2122,52 @@
             }
         },
         {
+            "name": "drupal/config_installer",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/config_installer",
+                "reference": "8.x-1.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/config_installer-8.x-1.8.zip",
+                "reference": "8.x-1.8",
+                "shasum": "43d7af76a3f00d074161e242ddf94d942d256250"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-profile",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.8",
+                    "datestamp": "1524572284",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "alexpott",
+                    "homepage": "https://www.drupal.org/user/157725"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/config_installer",
+            "support": {
+                "source": "http://cgit.drupalcode.org/config_installer"
+            }
+        },
+        {
             "name": "drupal/console",
             "version": "1.8.0",
             "source": {
@@ -3081,7 +3127,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.5",
-                    "datestamp": "1527241084",
+                    "datestamp": "1527243208",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4044,17 +4090,17 @@
         },
         {
             "name": "drupal/token",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/token",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "fd8d854eaa3fd7698694f4d9a9d66dc437e19cd0"
+                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "6382a7e1aabbd8246f1117a26bf4916d285b401d"
             },
             "require": {
                 "drupal/core": "^8.5"
@@ -4065,8 +4111,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1536408480",
+                    "version": "8.x-1.5",
+                    "datestamp": "1537557481",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10117,6 +10163,17 @@
         {
             "name": "webflo/drupal-core-require-dev",
             "version": "8.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webflo/drupal-core-require-dev.git",
+                "reference": "75f73363165a450e9a2f9f1ce3930f148184c964"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webflo/drupal-core-require-dev/zipball/75f73363165a450e9a2f9f1ce3930f148184c964",
+                "reference": "75f73363165a450e9a2f9f1ce3930f148184c964",
+                "shasum": ""
+            },
             "require": {
                 "behat/mink": "1.7.x-dev",
                 "behat/mink-goutte-driver": "^1.2",

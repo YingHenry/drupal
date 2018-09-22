@@ -23,6 +23,7 @@
         "drupal/anchor_link": "^1.6",
         "drupal/better_exposed_filters": "^3.0@alpha",
         "drupal/chosen": "^2.6",
+        "drupal/config_installer": "^1.8",
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.6.0",
         "drupal/devel": "^1.2",
