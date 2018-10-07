@@ -40,7 +40,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Filtrer
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
@@ -55,8 +55,8 @@ display:
           id: 0
           total_pages: 0
           tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
+            previous: '‹ Précédent'
+            next: 'Suivant ›'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -354,7 +354,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Status
+          label: Etat
           exclude: false
           alter:
             alter_text: false
@@ -666,7 +666,7 @@ display:
           exposed: true
           expose:
             operator_id: status_op
-            label: Status
+            label: Etat
             description: ''
             use_operator: false
             operator: status_op
@@ -794,8 +794,8 @@ display:
           id: 0
           total_pages: 0
           tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
+            previous: '‹ Précédent'
+            next: 'Suivant ›'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
