@@ -11,7 +11,7 @@ dependencies:
 _core:
   default_config_hash: TFUfJMkC5E-HhafRL20wJK0EdtJotDtqb_9kJw2att4
 id: media
-label: Média
+label: Media
 module: views
 description: ''
 tag: ''
@@ -750,7 +750,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Média
+      title: Media
       header: {  }
       footer: {  }
       empty:
@@ -780,7 +780,7 @@ display:
   media_page_list:
     display_plugin: page
     id: media_page_list
-    display_title: Média
+    display_title: Media
     position: 1
     display_options:
       display_extenders: {  }

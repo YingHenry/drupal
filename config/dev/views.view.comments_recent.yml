@@ -1,6 +1,6 @@
 uuid: 64aa212c-5ded-42b6-a099-17e3cc0fb4cb
 langcode: fr
-status: true
+status: false
 dependencies:
   module:
     - comment
@@ -20,7 +20,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Master
+    display_title: Maître
     position: 0
     display_options:
       access:

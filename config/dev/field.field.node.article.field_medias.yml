@@ -1,19 +1,20 @@
-uuid: e5348873-e878-4312-b03f-be1d05a4f500
+uuid: 9d162071-86ce-45de-9cd5-92cdd086fe94
 langcode: fr
 status: true
 dependencies:
   config:
-    - field.storage.node.field_media
+    - field.storage.node.field_medias
     - media.type.audio
     - media.type.file
     - media.type.image
+    - media.type.remote_video
     - media.type.video
     - node.type.article
-id: node.article.field_media
-field_name: field_media
+id: node.article.field_medias
+field_name: field_medias
 entity_type: node
 bundle: article
-label: Média
+label: Médias
 description: ''
 required: false
 translatable: false
@@ -26,6 +27,7 @@ settings:
       audio: audio
       file: file
       image: image
+      remote_video: remote_video
       video: video
     sort:
       field: _none
