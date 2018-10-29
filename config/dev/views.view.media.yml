@@ -11,7 +11,7 @@ dependencies:
 _core:
   default_config_hash: TFUfJMkC5E-HhafRL20wJK0EdtJotDtqb_9kJw2att4
 id: media
-label: Media
+label: Média
 module: views
 description: ''
 tag: ''
@@ -22,7 +22,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Maître
+    display_title: Master
     position: 0
     display_options:
       access:
@@ -46,7 +46,7 @@ display:
           submit_button: Filtrer
           reset_button: false
           reset_button_label: Réinitialiser
-          exposed_sorts_label: 'Trier par'
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
@@ -59,12 +59,12 @@ display:
           total_pages: null
           expose:
             items_per_page: false
-            items_per_page_label: 'Éléments par page'
+            items_per_page_label: 'Items per page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- Tout -'
+            items_per_page_options_all_label: '- All -'
             offset: false
-            offset_label: Décalage
+            offset_label: Offset
           tags:
             previous: '‹ Précédent'
             next: 'Suivant ›'
@@ -387,7 +387,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Etat
+          label: État
           exclude: false
           alter:
             alter_text: false
@@ -454,7 +454,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Mis à jour'
+          label: 'Dernière mise à jour'
           exclude: false
           alter:
             alter_text: false
@@ -521,7 +521,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Actions
+          label: Opérations
           exclude: false
           alter:
             alter_text: false
@@ -672,7 +672,7 @@ display:
               authenticated: authenticated
           is_grouped: true
           group_info:
-            label: 'Statut de publication'
+            label: État
             description: ''
             identifier: status
             optional: true
@@ -750,7 +750,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Media
+      title: Média
       header: {  }
       footer: {  }
       empty:
@@ -780,7 +780,7 @@ display:
   media_page_list:
     display_plugin: page
     id: media_page_list
-    display_title: Media
+    display_title: Média
     position: 1
     display_options:
       display_extenders: {  }
@@ -788,7 +788,7 @@ display:
       display_description: ''
       menu:
         type: tab
-        title: Media
+        title: Média
         description: ''
         expanded: false
         parent: ''

@@ -1,0 +1,22 @@
+uuid: 6fd246a4-d44d-417f-bd6e-7ddc30b500b0
+langcode: fr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - back_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: back_theme_help
+theme: back_theme
+region: help
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Aide
+  provider: help
+  label_display: '0'
+visibility: {  }

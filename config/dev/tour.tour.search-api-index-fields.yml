@@ -22,7 +22,7 @@ tips:
   search-api-index-fields-add:
     id: search-api-index-fields-add
     plugin: text
-    label: 'Add fields'
+    label: 'Ajouter des champs'
     body: 'With the "Add fields" button you can add additional fields to this index.'
     weight: 2
     attributes:
@@ -30,7 +30,7 @@ tips:
   search-api-index-fields-label:
     id: search-api-index-fields-label
     plugin: text
-    label: Label
+    label: Étiquette
     body: 'A label for the field that will be used to refer to the field in most places in the user interface.'
     weight: 3
     attributes:
@@ -38,7 +38,7 @@ tips:
   search-api-index-fields-machine-name:
     id: search-api-index-fields-machine-name
     plugin: text
-    label: 'Machine name'
+    label: 'Nom système'
     body: 'The internal ID to use for this field. Can safely be ignored by inexperienced users in most cases. Changing a field''s machine name requires reindexing of the index.'
     weight: 4
     attributes:
@@ -70,7 +70,7 @@ tips:
   search-api-index-fields-edit:
     id: search-api-index-fields-edit
     plugin: text
-    label: 'Edit field'
+    label: 'Modifier le champ'
     body: 'Some fields have additional configuration available, in which case an "Edit" link is displayed in the "Operations" column.'
     weight: 8
     attributes:
@@ -78,7 +78,7 @@ tips:
   search-api-index-fields-remove:
     id: search-api-index-fields-remove
     plugin: text
-    label: 'Remove field'
+    label: 'Retirer le champ'
     body: 'Removes a field from the index again. (Note: Sometimes, a field is required (for example, by a processor) and cannot be removed.)'
     weight: 9
     attributes:
@@ -86,7 +86,7 @@ tips:
   search-api-index-fields-submit:
     id: search-api-index-fields-submit
     plugin: text
-    label: 'Save changes'
+    label: 'Enregistrer les modifications'
     body: 'This saves all changes made to the fields for this index. Until this button is pressed, all added, changed or removed fields will only be stored temporarily and not effect the actual index used in the rest of the site.'
     weight: 10
     attributes:
@@ -94,7 +94,7 @@ tips:
   search-api-index-fields-cancel:
     id: search-api-index-fields-cancel
     plugin: text
-    label: 'Cancel changes'
+    label: 'Annuler les modifications'
     body: 'If you have made changes to the index''s fields but not yet saved them, the "Cancel" link lets you discard those changes.'
     weight: 10
     attributes:

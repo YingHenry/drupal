@@ -24,7 +24,7 @@ tips:
   search-api-server-form-name:
     id: search-api-server-form-name
     plugin: text
-    label: 'Server name'
+    label: 'Nom du serveur'
     body: 'Enter a name to identify this server. For example, "Solr server". This will only be displayed in the admin user interface.'
     weight: 2
     attributes:
@@ -32,7 +32,7 @@ tips:
   search-api-server-form-description:
     id: search-api-server-form-description
     plugin: text
-    label: 'Server description'
+    label: 'Description du serveur'
     body: 'Optionally, enter a description to explain the function of the server in more detail. This will only be displayed in the admin user interface.'
     weight: 3
     attributes:

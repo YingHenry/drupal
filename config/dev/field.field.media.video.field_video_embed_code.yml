@@ -1,0 +1,19 @@
+uuid: fb3ea5d1-5d54-4fd9-9f62-012650004f0a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_video_embed_code
+    - media.type.video
+id: media.video.field_video_embed_code
+field_name: field_video_embed_code
+entity_type: media
+bundle: video
+label: 'Vidéo intégrée (code)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,12 +1,17 @@
 uuid: 27711d97-05a8-4a4e-8744-8780f298f317
 langcode: fr
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - crop
+third_party_settings:
+  crop:
+    image_field: _none
 _core:
   default_config_hash: _Cj9j8iA9MZ3HWv7QEwv1Pdxni0UlWGKnMw3Ou0rlXo
 id: video
-label: Video
-description: 'A locally hosted video file.'
+label: Vidéo
+description: ''
 source: video_file
 queue_thumbnail_downloads: false
 new_revision: true

@@ -1,0 +1,42 @@
+uuid: 888bab8e-bdc9-4aca-a0b7-a340370d764e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.entity_browser
+  module:
+    - entity_browser_entity_form
+    - views
+name: image
+label: Image
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Sélectionner les entités'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  cd00e79b-ef58-4e48-b0bb-6e7197d467b7:
+    settings:
+      view: entity_browser
+      view_display: entity_browser_1
+      submit_text: Sélectionner
+      auto_select: false
+    uuid: cd00e79b-ef58-4e48-b0bb-6e7197d467b7
+    weight: 1
+    label: Sélectionner
+    id: view
+  327e0338-4381-4ce9-adab-96c5ce27c012:
+    settings:
+      entity_type: media
+      bundle: image
+      form_mode: default
+      submit_text: Créer
+    uuid: 327e0338-4381-4ce9-adab-96c5ce27c012
+    weight: 2
+    label: Créer
+    id: entity_form

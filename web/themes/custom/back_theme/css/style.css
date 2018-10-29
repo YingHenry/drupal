@@ -1,0 +1,42 @@
+/* entity form */
+#block-theme-bdt-admin-bdt-mainpagecontent #edit-field-tra-media-video-current {
+  overflow: hidden;
+}
+
+#block-theme-bdt-admin-bdt-mainpagecontent #edit-field-tra-media-video-current > div {
+  float: left;
+}
+
+#block-theme-bdt-admin-bdt-mainpagecontent .media--type-video > iframe,
+#block-theme-bdt-admin-bdt-mainpagecontent .video-embed-field-provider-youtube {
+  width: 160px;
+  height: 90px;
+}
+
+/* entity browser popup */
+.view-entity-browser .view-content {
+  overflow: hidden;
+}
+
+.view-entity-browser .views-row {
+  float: left;
+  margin-right: 16px;
+}
+
+.view-entity-browser .field-content > iframe,
+.view-entity-browser .field-content > video {
+  width: 160px;
+  height: 90px;
+}
+
+.js-form-type-input label,
+.js-form-type-checkbox label
+{
+    display: inline-block;
+}
+
+.form-required::after
+{
+    content: '*';
+    color: #F00;
+}

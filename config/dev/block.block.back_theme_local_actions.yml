@@ -1,0 +1,20 @@
+uuid: 355d291f-a16b-49a9-960f-bb00514add49
+langcode: fr
+status: false
+dependencies:
+  theme:
+    - back_theme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: back_theme_local_actions
+theme: back_theme
+region: sidebar_first
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Actions d''administration principales'
+  provider: core
+  label_display: '0'
+visibility: {  }

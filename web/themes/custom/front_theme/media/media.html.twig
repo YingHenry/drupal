@@ -1,0 +1,23 @@
+{#
+/**
+ * @file
+ * Theme override to display a media item.
+ *
+ * Available variables:
+ * - name: Name of the media.
+ * - content: Media content.
+ *
+ * @see template_preprocess_media()
+ *
+ * @ingroup themeable
+ */
+#}
+{% set type = 'media--type-' ~ media.bundle()|clean_class %}
+{% set viewMode = view_mode ? 'media--view-mode-' ~ view_mode %}
+<div class="media {{ type }} {{ viewMode }}">
+  {%  block content %}
+    {% if content %}
+      {{ content }}
+    {% endif %}
+  {%  endblock %}
+</div>

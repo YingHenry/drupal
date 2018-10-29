@@ -1,0 +1,22 @@
+uuid: 533cfd19-6608-4694-b3a5-bc601d559d9e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - back_theme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: back_theme_breadcrumbs
+theme: back_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''Ariane'
+  provider: system
+  label_display: '0'
+visibility: {  }

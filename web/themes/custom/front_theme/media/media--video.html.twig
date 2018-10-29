@@ -1,0 +1,28 @@
+{#
+/**
+ * @file
+ * Theme override to display a media item.
+ *
+ * Available variables:
+ * - name: Name of the media.
+ * - content: Media content.
+ *
+ * @see template_preprocess_media()
+ *
+ * @ingroup themeable
+ */
+#}
+{% extends "media.html.twig" %}
+
+{% block content %}
+  {% if content %}
+    {{ content.field_media_video_file }}
+    {{ content.field_video_embed_url }}
+
+    {% if content.field_video_embed_code.0 %}
+      <div class="video-embed-code">
+        {{ content.field_video_embed_code.0['#context']['value'] | raw }}
+      </div>
+    {% endif %}
+  {% endif %}
+{% endblock %}

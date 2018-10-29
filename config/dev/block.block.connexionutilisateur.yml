@@ -1,0 +1,20 @@
+uuid: e7320499-43ec-40de-be31-aad9807cc651
+langcode: fr
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - back_theme
+id: connexionutilisateur
+theme: back_theme
+region: content
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Connexion utilisateur'
+  provider: user
+  label_display: visible
+visibility: {  }

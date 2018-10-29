@@ -1,0 +1,6 @@
+name: Custom media
+description: Gestion des médias.
+package: Custom
+
+type: module
+core: 8.x

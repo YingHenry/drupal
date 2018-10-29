@@ -1,0 +1,64 @@
+<?php
+
+/**
+ * @file
+ * Media rules.
+ */
+
+/**
+ * Implements hook_preprocess_views_view_field().
+ */
+function custom_media_preprocess_views_view_field(&$variables) {ksm($variables['field']->realField);
+  if ($variables['field']->realField == 'field_video_embed_code_value') {
+    // Allows iframe tag to be rendered in entity browser popup.
+    $variables['output'] = $variables['field']->getValue($variables['row']);
+  }
+}
+
+/**
+ * Preprocess iframes in the format of preprocess_video_embed_iframe__PROVIDER.
+ *
+ * Allows you to preprocess video embed iframes but only for specific providers.
+ * This allows you to, for instance control things specific to each provider.
+ * For example, if you wanted to enable a specific youtube feature by altering
+ * the query string, you could do so as demonstrated.
+ */
+function custom_media_preprocess_video_embed_iframe__youtube(&$variables) {
+  $variables['query']['enablejsapi'] = '1';
+}
+
+/**
+ * Implements hook_preprocess_media().
+ */
+function custom_media_preprocess_media(array &$variables) {
+  $media = $variables['elements']['#media'];
+
+  if ($media->bundle() == 'file') {
+    $file = $media->get('field_media_file')->entity;
+
+    if ($file) {
+      $filename = $file->getFilename();
+      $elements = explode('.', $filename);
+      $type = end($elements);
+      $variables['fileType'] = strtoupper($type);
+      $size = $file->getSize();
+      $variables['fileSize'] = _format_bytes($size);
+      $fileUri = $file->getFileUri();
+      $variables['fileUrl'] = file_create_url($fileUri);
+    }
+  }
+}
+
+/**
+ * Converts bytes to human readable size.
+ */
+function _format_bytes($bytes, $precision = 2) {
+  $units = ['octets', 'Ko', 'Mo', 'Go'];
+  $bytes = max($bytes, 0);
+  $pow = floor(($bytes ? log($bytes) : 0) / log(1024));
+  $pow = min($pow, count($units) - 1);
+  $bytes /= pow(1024, $pow);
+  $readableSize = round($bytes, $precision) . ' ' . $units[$pow];
+
+  return $readableSize;
+}

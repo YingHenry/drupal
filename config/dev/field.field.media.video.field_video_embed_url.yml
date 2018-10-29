@@ -1,0 +1,25 @@
+uuid: 850dabb9-9c9c-4497-8860-bc9fcd941a09
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_video_embed_url
+    - media.type.video
+  module:
+    - video_embed_field
+id: media.video.field_video_embed_url
+field_name: field_video_embed_url
+entity_type: media
+bundle: video
+label: 'Vidéo intégrée (Youtube)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: vimeo
+    youtube: youtube
+    youtube_playlist: '0'
+field_type: video_embed_field

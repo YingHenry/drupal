@@ -1,12 +1,17 @@
 uuid: 23406e58-fc93-4e93-97ee-60605bc81b9d
 langcode: fr
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - crop
+third_party_settings:
+  crop:
+    image_field: _none
 _core:
   default_config_hash: s6qJnINiq7zI-ZoQOXM_gtiDpIsHT3fm7RySP1F_BE0
 id: file
-label: File
-description: 'Use local files for reusable media.'
+label: Fichier
+description: ''
 source: file
 queue_thumbnail_downloads: false
 new_revision: true

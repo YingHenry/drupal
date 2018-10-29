@@ -1,0 +1,19 @@
+name: Thème front
+type: theme
+description: 'Custom front theme'
+package: Other
+core: 8.x
+libraries:
+  - front_theme/global-styling
+regions:
+  navigation: 'Navigation'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar: 'Sidebar right'
+  sticky: 'Sticky'
+  footer: 'Footer'
+  hidden: 'Hidden'
+base theme: classy
+

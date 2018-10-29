@@ -1,12 +1,17 @@
 uuid: a9006fe2-6db8-4349-897d-d55e6d218dd1
 langcode: fr
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - crop
+third_party_settings:
+  crop:
+    image_field: _none
 _core:
   default_config_hash: RQ75tMARZvKiI0hge9SKZpZFi-dOzZyq0nlouHHBeLM
 id: audio
 label: Audio
-description: 'A locally hosted audio file.'
+description: ''
 source: audio_file
 queue_thumbnail_downloads: false
 new_revision: true

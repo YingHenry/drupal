@@ -90,7 +90,7 @@ settings:
   draft_loaded_message: ''
   confirmation_type: url_message
   confirmation_title: ''
-  confirmation_message: 'Your message has been sent.'
+  confirmation_message: 'Votre message a été envoyé.'
   confirmation_url: '<front>'
   confirmation_attributes: {  }
   confirmation_back: true
@@ -159,7 +159,7 @@ access:
 handlers:
   email_confirmation:
     id: email
-    label: 'Courriel de confirmation'
+    label: 'Email confirmation'
     handler_id: email_confirmation
     status: true
     conditions: {  }
@@ -193,7 +193,7 @@ handlers:
       theme_name: ''
   email_notification:
     id: email
-    label: 'Notification par courriel'
+    label: 'Email notification'
     handler_id: email_notification
     status: true
     conditions: {  }

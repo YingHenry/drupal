@@ -38,7 +38,7 @@ tips:
   search-api-index-processors-settings:
     id: search-api-index-processors-settings
     plugin: text
-    label: 'Processor settings'
+    label: 'Paramètres du processeur'
     body: 'Some processors have additional configuration available, which you are able to change here.'
     weight: 4
     attributes:

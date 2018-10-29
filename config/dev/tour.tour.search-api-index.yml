@@ -22,7 +22,7 @@ tips:
   search-api-index-index-status:
     id: search-api-index-index-status
     plugin: text
-    label: 'Index status'
+    label: 'Statut de l''index'
     body: 'This gives a summary about how many items are known for this index, and how many have been indexed in their latest version. Items that are not indexed yet cannot be found by searches.'
     weight: 2
     attributes:
@@ -30,7 +30,7 @@ tips:
   search-api-index-status:
     id: search-api-index-status
     plugin: text
-    label: Etat
+    label: État
     body: 'Shows whether the index is currently enabled or disabled.'
     weight: 3
     attributes:
@@ -46,7 +46,7 @@ tips:
   search-api-index-tracker:
     id: search-api-index-tracker
     plugin: text
-    label: Tracker
+    label: Suivi
     body: 'The tracker used by the index. Only one ("Default") is available by default.'
     weight: 5
     attributes:
@@ -62,7 +62,7 @@ tips:
   search-api-index-server-index-status:
     id: search-api-index-server-index-status
     plugin: text
-    label: 'Server index status'
+    label: 'État du serveur d''indexation'
     body: 'For enabled indexes, the number of items that can actually be retrieved from the server is listed here. For reasons why this number might differ from the number under "Index status", <a href="https://www.drupal.org/node/2009804#server-index-status">see the module''s documentation</a>.'
     weight: 7
     attributes:
@@ -70,7 +70,7 @@ tips:
   search-api-index-cron-batch-size:
     id: search-api-index-cron-batch-size
     plugin: text
-    label: 'Cron batch size'
+    label: 'Taille des lots de la tâche planifiée (cron)'
     body: 'The number of items that will be indexed at once during cron runs.'
     weight: 8
     attributes:
@@ -78,7 +78,7 @@ tips:
   search-api-index-index-now:
     id: search-api-index-remove
     plugin: text
-    label: 'Start indexing now'
+    label: 'Démarrer l''indexation immédiatement'
     body: 'The "Start indexing now" form allows indexing items manually right away, with a batch process. Otherwise, items are only indexed during cron runs. The form might be disabled if indexing is currently not possible for some reason, or not necessary.'
     weight: 9
     attributes:
@@ -94,7 +94,7 @@ tips:
   search-api-index-reindex:
     id: search-api-index-reindex
     plugin: text
-    label: 'Queue all items for reindexing'
+    label: 'Mettre tous les éléments en file d''attente pour réindexation'
     body: 'This will queue all items on this index for reindexing. Previously indexed data will remain on the search server, so searches on this index will continue to yield results.'
     weight: 11
     attributes:
@@ -102,7 +102,7 @@ tips:
   search-api-index-clear:
     id: search-api-index-clear
     plugin: text
-    label: 'Clear all indexed data'
+    label: 'Purger toutes les données indexées'
     body: 'This will remove all indexed content for this index from the search server and queue it for reindexing. Searches on this index will not return any results until items are reindexed.'
     weight: 12
     attributes:
