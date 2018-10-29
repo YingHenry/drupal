@@ -451,9 +451,9 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: file_default
+          type: file_video
           settings:
-            use_description_as_link_text: true
+            use_description_as_link_text: 1
           group_column: ''
           group_columns: {  }
           group_rows: true

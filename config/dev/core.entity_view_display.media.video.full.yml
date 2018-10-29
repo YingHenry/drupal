@@ -1,8 +1,9 @@
-uuid: 313f9600-1a40-4bef-a0e5-0675f12209dc
+uuid: a660b1f2-8bfd-4dd8-90da-3695a98bfb35
 langcode: fr
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.media.full
     - field.field.media.video.field_media_video_file
     - field.field.media.video.field_video_embed_code
     - field.field.media.video.field_video_embed_url
@@ -12,10 +13,10 @@ dependencies:
     - video_embed_field
 _core:
   default_config_hash: dQR0mYK5NNg27OigHrxZrHSsnwewnNZcPJKjKIO0cpA
-id: media.video.default
+id: media.video.full
 targetEntityType: media
 bundle: video
-mode: default
+mode: full
 content:
   field_media_video_file:
     type: file_video
@@ -33,14 +34,14 @@ content:
     region: content
   field_video_embed_code:
     weight: 2
-    label: hidden
+    label: above
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: content
   field_video_embed_url:
     weight: 3
-    label: hidden
+    label: above
     settings:
       responsive: true
       width: 854
