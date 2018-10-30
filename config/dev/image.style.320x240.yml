@@ -1,0 +1,15 @@
+uuid: c120bdf7-caa0-4dd9-b0ae-c0e0511c0cc8
+langcode: fr
+status: true
+dependencies: {  }
+name: 320x240
+label: 320x240
+effects:
+  ea07f218-0673-4cf2-9680-858a6a6a3a6c:
+    uuid: ea07f218-0673-4cf2-9680-858a6a6a3a6c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 320
+      height: 240
+      anchor: center-center

@@ -1,10 +1,13 @@
 uuid: ff185373-0fdc-4e86-b142-bdcb42cc2463
 langcode: fr
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.search_index
     - field.field.node.article.body
+    - field.field.node.article.field_media_files
+    - field.field.node.article.field_media_images
+    - field.field.node.article.field_media_videos
     - field.field.node.article.field_tags
     - node.type.article
   module:
@@ -33,5 +36,8 @@ content:
     label: hidden
     region: content
 hidden:
+  field_media_files: true
+  field_media_images: true
+  field_media_videos: true
   langcode: true
   links: true

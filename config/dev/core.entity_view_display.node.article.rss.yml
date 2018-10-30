@@ -1,10 +1,13 @@
 uuid: c3077cc3-6e16-4328-ad5c-7b75fb955931
 langcode: fr
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.rss
     - field.field.node.article.body
+    - field.field.node.article.field_media_files
+    - field.field.node.article.field_media_images
+    - field.field.node.article.field_media_videos
     - field.field.node.article.field_tags
     - node.type.article
   module:
@@ -23,5 +26,8 @@ content:
     third_party_settings: {  }
 hidden:
   body: true
+  field_media_files: true
+  field_media_images: true
+  field_media_videos: true
   field_tags: true
   langcode: true
