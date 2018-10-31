@@ -46,18 +46,17 @@
 %}
 {%
   set title_classes = [
-    'field__label',
+    'field--label',
     label_display == 'visually_hidden' ? 'visually-hidden',
   ]
 %}
-
 <div{{ attributes.addClass(classes) }}>
   {% if label_hidden == false %}
     <div{{ title_attributes.addClass(title_classes) }}>{{ label }}</div>
   {% endif %}
 
   {% if multiple %}
-    <div class="field__items">
+    <div class="field--items">
   {% endif %}
 
   {% for item in items %}

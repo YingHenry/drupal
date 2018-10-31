@@ -70,7 +70,7 @@
  *   in different view modes.
  */
 #}
-{% set type = 'node--type-' ~ node.bundle()|clean_class %}
+{% set type = 'node--type-' ~ node.bundle() %}
 {% set viewMode = view_mode ? 'node--view-mode-' ~ view_mode %}
 <div class="node {{ type }} {{ viewMode }}">
   {{ title_prefix }}
