@@ -1,0 +1,25 @@
+uuid: 0ab8daae-92ae-41e3-b2cb-d2c25a094441
+langcode: fr
+status: true
+dependencies:
+  module:
+    - elasticsearch_connector
+id: es_server
+name: 'ES serveur'
+description: ''
+backend: elasticsearch
+backend_config:
+  server_description: ''
+  cluster_settings:
+    cluster: es_cluster
+  fuzziness: auto
+  scheme: http
+  host: localhost
+  port: '9200'
+  path: ''
+  excerpt: false
+  retrieve_data: false
+  highlight_data: false
+  http_method: AUTO
+  autocorrect_spell: true
+  autocorrect_suggest_words: true

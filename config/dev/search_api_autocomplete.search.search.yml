@@ -1,0 +1,37 @@
+uuid: 472e94f6-1384-4eb7-b169-94eb0668bdf1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - search_api.index.es_index
+    - views.view.search
+  module:
+    - views
+    - search_api_autocomplete
+id: search
+label: Recherche
+index_id: es_index
+suggester_settings:
+  live_results:
+    fields: {  }
+    view_modes:
+      'entity:node':
+        article: ''
+  server:
+    fields: {  }
+suggester_weights:
+  live_results: 0
+  server: 0
+suggester_limits: {  }
+search_settings:
+  'views:search':
+    displays:
+      default: true
+      selected: {  }
+options:
+  limit: 10
+  min_length: 1
+  show_count: true
+  autosubmit: true
+  submit_button_selector: ':submit'
+  delay: null

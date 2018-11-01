@@ -24,7 +24,7 @@ tips:
   search-api-index-form-name:
     id: search-api-index-form-name
     plugin: text
-    label: 'Index name'
+    label: 'Nom de l''index'
     body: 'Enter a name to identify this index. For example, "Content index". This will only be displayed in the admin user interface.'
     weight: 2
     attributes:
@@ -48,7 +48,7 @@ tips:
   search-api-index-form-server:
     id: search-api-index-form-server
     plugin: text
-    label: Server
+    label: Serveur
     body: 'The search server that the index should use for indexing and searching. If no server is selected here, the index cannot be enabled. An index can only have one server, but a server can have any number of indexes.'
     weight: 5
     attributes:

@@ -1,0 +1,14 @@
+uuid: 180709ac-45c9-4e03-8cc8-faf4d064b429
+langcode: fr
+status: '1'
+dependencies: {  }
+cluster_id: es_cluster
+name: 'ES cluster'
+url: 'http://localhost:9200'
+options:
+  multiple_nodes_connection: false
+  use_authentication: 0
+  authentication_type: Basic
+  username: ''
+  password: ''
+  timeout: '3'

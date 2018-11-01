@@ -30,7 +30,7 @@ tips:
   search-api-index-status:
     id: search-api-index-status
     plugin: text
-    label: État
+    label: Etat
     body: 'Shows whether the index is currently enabled or disabled.'
     weight: 3
     attributes:
@@ -54,7 +54,7 @@ tips:
   search-api-index-server:
     id: search-api-index-server
     plugin: text
-    label: Server
+    label: Serveur
     body: 'If the index is attached to a server, this server is listed here.'
     weight: 6
     attributes:

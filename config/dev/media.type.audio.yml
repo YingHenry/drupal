@@ -11,7 +11,7 @@ _core:
   default_config_hash: RQ75tMARZvKiI0hge9SKZpZFi-dOzZyq0nlouHHBeLM
 id: audio
 label: Audio
-description: ''
+description: 'Un fichier audio hébergé localement.'
 source: audio_file
 queue_thumbnail_downloads: false
 new_revision: true

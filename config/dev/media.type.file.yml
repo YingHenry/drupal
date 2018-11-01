@@ -11,7 +11,7 @@ _core:
   default_config_hash: s6qJnINiq7zI-ZoQOXM_gtiDpIsHT3fm7RySP1F_BE0
 id: file
 label: Fichier
-description: ''
+description: 'Utiliser des fichiers locaux en tant que média réutilisable.'
 source: file
 queue_thumbnail_downloads: false
 new_revision: true
