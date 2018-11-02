@@ -10,8 +10,8 @@
 #edit-field-media-videos-wrapper iframe,
 #edit-field-media-videos-wrapper .video-embed-field-provider-youtube,
 #edit-field-media-videos-wrapper video {
-  width: 160px;
-  height: 90px;
+  width: 320px;
+  height: 240px;
 }
 
 /* entity browser popup */
@@ -27,8 +27,8 @@
 .view-entity-browser .field-content > iframe,
 .view-entity-browser .field-content > .video-embed-field-provider-youtube,
 .view-entity-browser .field-content > video {
-  width: 160px;
-  height: 90px;
+  width: 320px;
+  height: 240px;
 }
 
 .js-form-type-input label,

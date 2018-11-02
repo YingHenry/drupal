@@ -11,8 +11,8 @@ name: fichier
 label: Fichier
 display: modal
 display_configuration:
-  width: '650'
-  height: '500'
+  width: '1050'
+  height: '600'
   link_text: 'Sélectionner les entités'
   auto_open: false
 selection_display: no_display
