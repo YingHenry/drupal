@@ -3,6 +3,7 @@ langcode: fr
 status: true
 dependencies:
   config:
+    - field.storage.node.field_location
     - search_api.server.es_server
   module:
     - search_api
@@ -21,6 +22,14 @@ field_settings:
       fields:
         - 'entity:node/body'
         - 'entity:node/title'
+  field_location:
+    label: Localisation
+    datasource_id: 'entity:node'
+    property_path: field_location
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_location
 datasource_settings:
   'entity:node':
     bundles:
@@ -33,11 +42,16 @@ datasource_settings:
 processor_settings:
   add_url: {  }
   aggregated_field: {  }
+  hierarchy:
+    fields:
+      field_location: taxonomy_term-parent
+    weights:
+      preprocess_index: -45
   highlight:
     highlight: always
     highlight_partial: true
     excerpt: true
-    excerpt_length: 256
+    excerpt_length: 512
     exclude_fields: {  }
     prefix: '<strong>'
     suffix: '</strong>'

@@ -1,0 +1,29 @@
+uuid: ec60a9f4-3db2-44bd-8a10-0f5e3ba6ceec
+langcode: fr
+status: true
+dependencies:
+  config:
+    - facets.facet.location
+  module:
+    - facets
+    - system
+  theme:
+    - front_theme
+id: localisation
+theme: front_theme
+region: sidebar_left
+weight: 0
+provider: null
+plugin: 'facet_block:location'
+settings:
+  id: 'facet_block:location'
+  label: Localisation
+  provider: facets
+  label_display: visible
+  block_id: localisation
+visibility:
+  request_path:
+    id: request_path
+    pages: /recherche
+    negate: false
+    context_mapping: {  }

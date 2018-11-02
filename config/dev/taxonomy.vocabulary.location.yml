@@ -1,0 +1,9 @@
+uuid: f07c26a2-30c9-4310-9b20-443ab57c28f5
+langcode: fr
+status: true
+dependencies: {  }
+name: Localisation
+vid: location
+description: ''
+hierarchy: 0
+weight: 0
