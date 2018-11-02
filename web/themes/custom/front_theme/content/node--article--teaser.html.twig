@@ -69,21 +69,16 @@
  *   rendered twice on a page this is invalid CSS for example: two lists
  *   in different view modes.
  */
-#}{{ kint() }}
-{% set type = 'node--type-' ~ node.bundle() %}
-{% set viewMode = view_mode ? 'node--view-mode-' ~ view_mode %}
-<div class="node {{ type }} {{ viewMode }}">
-  {{ title_prefix }}
-  {% block title %}
-    {% if not page %}
-      <h2>
-        <a href="{{ url }}">{{ label }}</a>
-      </h2>
-    {% endif %}
-  {% endblock %}
-  {{ title_suffix }}
+#}
+{% extends "node.html.twig" %}
 
-  {% block content %}
-    {{ content }}
-  {% endblock %}
-</div>
+{% block title %}{% endblock %}
+
+{% block content %}
+  <a href="{{ url }}">
+    <h3>
+      {{ label.0 }}
+    </h3>
+    {{ content.body }}
+  </a>
+{% endblock %}
