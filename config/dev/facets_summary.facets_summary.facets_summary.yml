@@ -1,0 +1,31 @@
+uuid: c01f70eb-e93b-4bf2-bd4d-f87a4ce93805
+langcode: fr
+status: true
+dependencies:
+  config:
+    - search_api.index.es_index
+    - views.view.search
+  module:
+    - search_api
+id: facets_summary
+name: 'Facettes sélectionnées'
+facets:
+  location:
+    checked: true
+    label: Localisation
+    separator: ', '
+    weight: 0
+    show_count: false
+facet_source_id: 'search_api:views_page__search__page_1'
+processor_configs:
+  hide_when_not_rendered:
+    processor_id: hide_when_not_rendered
+    weights:
+      build: '45'
+    settings: {  }
+  reset_facets:
+    processor_id: reset_facets
+    weights:
+      build: '30'
+    settings:
+      link_text: 'Réinitialiser tous les filtres'

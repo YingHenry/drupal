@@ -1,0 +1,28 @@
+uuid: df7e46df-bf80-4ad9-8bd1-3d5c39d8d064
+langcode: fr
+status: true
+dependencies:
+  config:
+    - facets_summary.facets_summary.facets_summary
+  module:
+    - facets_summary
+    - system
+  theme:
+    - front_theme
+id: facettesselectionnees
+theme: front_theme
+region: sidebar_left
+weight: 0
+provider: null
+plugin: 'facets_summary_block:facets_summary'
+settings:
+  id: 'facets_summary_block:facets_summary'
+  label: 'Facettes sélectionnées'
+  provider: facets_summary
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /recherche
+    negate: false
+    context_mapping: {  }
